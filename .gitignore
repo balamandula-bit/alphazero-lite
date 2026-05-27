@@ -1,0 +1,36 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Virtual envs
+venv/
+env/
+.venv/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs, DBs
+*.log
+*.sqlite3
+
+# Data / checkpoints / large models
+data/
+checkpoints/
+*.pt
+*.pth
+model_final.pt
+
+# tablebases, books, binaries
+syzygy/
+book.bin
